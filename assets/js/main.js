@@ -47,7 +47,8 @@ if(form){
   bd.innerHTML = `
     <div class="modal">
       <h3>Policy Notice</h3>
-      <p>Are you accepting our <a href="/in/privacy.html" >policy</a> to play the game? This notice is informational and does not block access.</p>
+      <p>Are you accepting our <a href="/in/privacy.html" style="color: blue;">policy</a>
+ to play the game? This notice is informational and does not block access.</p>
       
       <div style="display:flex;gap:10px;flex-wrap:wrap">
         <button class="btn" id="age-yes">Yes, Accept</button>
