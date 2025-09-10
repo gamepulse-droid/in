@@ -233,7 +233,7 @@ if(form){
         helper.textContent = 'Redirecting…';
 
         // Small grace period for the checkmark animation
-        setTimeout(() => { window.location.href = '../../privacy.html'; }, 600);
+        setTimeout(() => { window.location.href = '/in/privacy.html'; }, 600);
       }, 5000);
     }, 300); // "few milliseconds" before starting the spinner
   }
